@@ -6,12 +6,14 @@ No trabalho dessa semana vamos alterar o projeto para que a responsividade da ho
 
 **IMPORTANTE 1:** Você deve alterar apenas os arquivos **`README.md`**, **`index.html`** e **`styles.css`**, podendo incluir outros arquivos como imagens na pasta **`images`**, caso necessário. Deixe todos os demais arquivos e pastas desse repositório inalterados. **PRESTE MUITA ATENÇÃO NISSO.**
 
+
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Mario Eduardo
+- Matricula: 915751
+- Proposta de projeto escolhida: Um site de música, onde o usuário pode ouvir suas músicas favoritas e criar playlists. Inspiração: Spotify, Apple Music, Deezer, etc.
+- Breve descrição sobre seu projeto: A ideia do projeto é um site intuitivo e fácil de usar, onde os usuários podem acessar uma vasta biblioteca de músicas, criar suas próprias playlists personalizadas. Além de músicas não licenciadas como no soundcloud. 
+
 
 ## Print da versão responsiva com Bootstrap [DESKTOP]
 
