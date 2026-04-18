@@ -4,148 +4,177 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SomHub - Página inicial</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="cabecalho-site">
-        <div class="container cabecalho-conteudo">
-            <div class="logo-site">
-                <h1>SomHub</h1>
-                <p>Sua música, seu jeito</p>
-            </div>
-            <nav class="menu-principal">
-                <ul>
-                    <li><a href="index.html">Início</a></li>
-                    <li><a href="#destaques">Destaques</a></li>
-                    <li><a href="#playlists">Playlists</a></li>
-                    <li><a href="#artistas">Artistas</a></li>
-                    <li><a href="#contato">Contato</a></li>
-                </ul>
-            </nav>
-            <div class="acoes-topo">
-                <a class="botao botao-secundario" href="#">Entrar</a>
-                <a class="botao botao-primario" href="#">Cadastrar</a>
+        <div class="container">
+            <div class="row align-items-center py-3">
+                <div class="col-12 col-md-3 text-center text-md-start logo-site">
+                    <h1>SomHub</h1>
+                    <p>Sua música, seu jeito</p>
+                </div>
+                <nav class="col-12 col-md-6 menu-principal">
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+                        <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+                        <li class="nav-item"><a class="nav-link" href="cadastro.html">Cadastro</a></li>
+                    </ul>
+                </nav>
+                <div class="col-12 col-md-3 text-center text-md-end">
+                    <a class="botao botao-secundario" href="login.html">Entrar</a>
+                    <a class="botao botao-primario" href="cadastro.html">Cadastrar</a>
+                </div>
             </div>
         </div>
     </header>
+
     <main>
         <section class="secao-destaque" id="destaques">
-            <div class="container conteudo-destaque">
-                <div class="texto-destaque">
-                    <h2>Nuvem de sons para estudar, relaxar e curtir</h2>
-                    <p>Explore músicas e playlists organizadas para quem está
-                       começando a descobrir novos estilos e artistas.</p>
-                    <div class="botoes-destaque">
-                        <a class="botao botao-primario" href="#">Explorar</a>
-                        <a class="botao botao-secundario" href="#">Ouvir Agora</a>
+            <div class="container">
+                <div class="row align-items-center g-4">
+                    <div class="col-12 col-md-6">
+                        <h2>Nuvem de sons para estudar, relaxar e curtir</h2>
+                        <p>Explore músicas e playlists organizadas para quem está
+                           começando a descobrir novos estilos e artistas.</p>
+                        <div>
+                            <a class="botao botao-primario" href="#">Explorar</a>
+                            <a class="botao botao-secundario" href="#">Ouvir Agora</a>
+                        </div>
                     </div>
-                </div>
-                <div class="imagem-destaque">
-                    <img src="https://picsum.photos/id/20/420/260" alt="Destaque de músicas">
+                    <div class="col-12 col-md-6 text-center">
+                        <img src="https://picsum.photos/id/20/420/260" alt="Destaque de músicas" class="img-fluid rounded">
+                    </div>
                 </div>
             </div>
         </section>
-         <section class="secao-cartoes" id="playlists">
+
+        <section class="secao-cartoes" id="playlists">
             <div class="container">
                 <h2>Playlists em destaque</h2>
                 <p class="texto-apoio">Seleção inicial para ouvir durante o dia.</p>
-                <div class="grade-cartoes">
-                    <article class="cartao-musica">
-                        <img src="https://picsum.photos/id/1/280/180" alt="">
-                        <h3>Relax para estudar</h3>
-                        <p>Faixas calmas e instrumentais para foco.</p>
-                        <a class="botao botao-primario" href="#">Ouvir agora</a>
+                <div class="row g-4">
+                    <article class="col-12 col-sm-6 col-lg-3">
+                        <div class="cartao-musica">
+                            <img src="https://picsum.photos/id/1/280/180" alt="Playlist" class="img-fluid rounded">
+                            <h3>Relax para estudar</h3>
+                            <p>Faixas calmas e instrumentais para foco.</p>
+                            <a class="botao botao-primario" href="#">Ouvir agora</a>
+                        </div>
                     </article>
-                    <article class="cartao-musica">
-                        <img src="https://picsum.photos/id/30/280/180" alt="">
-                        <h3>Batida Urbana</h3>
-                        <p>Rap, trap e sons modernos em um só lugar.</p>
-                        <a class="botao botao-primario" href="#">Ouvir Agora</a>
+                    <article class="col-12 col-sm-6 col-lg-3">
+                        <div class="cartao-musica">
+                            <img src="https://picsum.photos/id/30/280/180" alt="Playlist" class="img-fluid rounded">
+                            <h3>Batida Urbana</h3>
+                            <p>Rap, trap e sons modernos em um só lugar.</p>
+                            <a class="botao botao-primario" href="#">Ouvir Agora</a>
+                        </div>
                     </article>
-                    <article class="cartao-musica">
-                        <img src="https://picsum.photos/id/50/280/180" alt="">
-                        <h3>Acústico Leve</h3>
-                        <p>Voz e violão para momentos tranquilos.</p>
-                        <a class="botao botao-primario" href="#">Ouvir Agora</a>
+                    <article class="col-12 col-sm-6 col-lg-3">
+                        <div class="cartao-musica">
+                            <img src="https://picsum.photos/id/50/280/180" alt="Playlist" class="img-fluid rounded">
+                            <h3>Acústico Leve</h3>
+                            <p>Voz e violão para momentos tranquilos.</p>
+                            <a class="botao botao-primario" href="#">Ouvir Agora</a>
+                        </div>
                     </article>
-                    <article class="cartao-musica">
-                        <img src="https://picsum.photos/id/91/280/180" alt="">
-                        <h3>Energia Pop</h3>
-                        <p>Hits animados para começar bem o dia.</p>
-                        <a class="botao botao-primario" href="#">Ouvir Agora</a>
+                    <article class="col-12 col-sm-6 col-lg-3">
+                        <div class="cartao-musica">
+                            <img src="https://picsum.photos/id/91/280/180" alt="Playlist" class="img-fluid rounded">
+                            <h3>Energia Pop</h3>
+                            <p>Hits animados para começar bem o dia.</p>
+                            <a class="botao botao-primario" href="#">Ouvir Agora</a>
+                        </div>
                     </article>
                 </div>
             </div>
-         </section>   
-         <section class="secao-artigos" id="artistas">
+        </section>
+
+        <section class="secao-artigos" id="artistas">
             <div class="container">
                 <h2>Artistas em destaque</h2>
-                <div class="lista-artigos">
-                    <article class="artigo">
-                        <div class="artigo-imagem">
-                            <img src="https://picsum.photos/id/64/240/160" alt="">
-                        </div>
-                        <div class="artigo-conteudo">
-                            <h3>DJ Aurora</h3>
-                            <p>Beat suave para relaxamento e treino.</p>
-                            <a class="link-simples" href="#"> Ver Perfil </a>
-                        </div>
-                    </article>
-                    <article class="artigo">
-                        <div class="artigo-imagem">
-                            <img src="https://picsum.photos/id/76/240/160" alt="">
-                        </div>
-                        <div class="artigo-conteudo">
-                            <h3>Banda Horizonte</h3>
-                            <p>Indie pop com letras leves e melódico.</p>
-                            <a class="link-simples" href="#">Ver Perfil</a>
+                <div class="row g-4 mt-2">
+                    <article class="col-12 col-md-6">
+                        <div class="artigo row align-items-center g-3">
+                            <div class="col-4">
+                                <img src="https://picsum.photos/id/64/240/160" alt="Artista" class="img-fluid rounded">
+                            </div>
+                            <div class="col-8">
+                                <h3>DJ Aurora</h3>
+                                <p>Beat suave para relaxamento e treino.</p>
+                                <a class="link-simples" href="#">Ver Perfil</a>
+                            </div>
                         </div>
                     </article>
-                    <article class="artigo">
-                        <div class="artigo-imagem">
-                            <img src="https://picsum.photos/id/96/240/160" alt="">
+                    <article class="col-12 col-md-6">
+                        <div class="artigo row align-items-center g-3">
+                            <div class="col-4">
+                                <img src="https://picsum.photos/id/76/240/160" alt="Artista" class="img-fluid rounded">
+                            </div>
+                            <div class="col-8">
+                                <h3>Banda Horizonte</h3>
+                                <p>Indie pop com letras leves e melódico.</p>
+                                <a class="link-simples" href="#">Ver Perfil</a>
+                            </div>
                         </div>
-                        <div class="artigo-conteudo">
-                            <h3>MC Lumi</h3>
-                            <p>Rap nacional com pegada autoral.</p>
-                            <a class="link-simples" href="#">Ver Perfil</a>
+                    </article>
+                    <article class="col-12 col-md-6">
+                        <div class="artigo row align-items-center g-3">
+                            <div class="col-4">
+                                <img src="https://picsum.photos/id/96/240/160" alt="Artista" class="img-fluid rounded">
+                            </div>
+                            <div class="col-8">
+                                <h3>MC Lumi</h3>
+                                <p>Rap nacional com pegada autoral.</p>
+                                <a class="link-simples" href="#">Ver Perfil</a>
+                            </div>
                         </div>
                     </article>
                 </div>
             </div>
-         </section>
-         <section class="secao-formulario" id="contato">
-            <div class="container">
-                <h2>Receba novidades</h2>
-                <p class="texto-apoio">Cadastre-se para receber atualizações
-                    de todo o site e playlists.
-                </p>
-                <form class="formulario-novidades" action="#" method="post">
-                    <div class="campo-formulario">
-                        <label for="nome">Nome</label>
-                        <input type="text" id="nome" name="nome" placeholder="Seu nome completo">
-                    </div>
+        </section>
 
-                    <div class="campo-formulario">
-                        <label for="email">E-mail</label>
-                        <input type="email" id="email" name="email" placeholder="seuemail@gmail.com">
+        <section class="secao-formulario" id="contato">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-8 col-lg-6">
+                        <h2>Receba novidades</h2>
+                        <p class="texto-apoio">Cadastre-se para receber atualizações
+                            de todo o site e playlists.
+                        </p>
+                        <form class="formulario-novidades" action="#" method="post">
+                            <div class="mb-3">
+                                <label for="nome" class="form-label">Nome</label>
+                                <input type="text" class="form-control" id="nome" name="nome" placeholder="Seu nome completo">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">E-mail</label>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="seuemail@gmail.com">
+                            </div>
+                            <div class="mb-3">
+                                <label for="estilo" class="form-label">Estilo preferido</label>
+                                <input type="text" class="form-control" id="estilo" name="estilo" placeholder="Ex: rock, pop, indie">
+                            </div>
+                            <button class="botao botao-primario" type="submit">Cadastrar</button>
+                        </form>
                     </div>
-                    <div class="campo-formulario">
-                        <label for="estilo">Estilo preferido</label>
-                        <input type="text" id="estilo" name="estilo" placeholder="Ex: rock, pop, indie">
-                    </div>
-                    <button class="botao botao-primario" type="submit">Cadastrar</button>
-                </form>
+                </div>
             </div>
-         </section>
+        </section>
     </main>
+
     <footer class="rodape-site">
-        <div class="container rodape-conteudo">
-            <p>SomHub © 2026 - DIW</p>
-            <div class="link-rodape">
-                <a href="#">Sobre</a>
-                <a href="#">Ajuda</a>
-                <a href="#">Termos</a>
+        <div class="container">
+            <div class="row align-items-center py-3">
+                <div class="col-12 col-md-6 text-center text-md-start">
+                    <p class="mb-0">SomHub © 2026 - DIW</p>
+                </div>
+                <div class="col-12 col-md-6 text-center text-md-end link-rodape">
+                    <a href="#">Sobre</a>
+                    <a href="#">Ajuda</a>
+                    <a href="#">Termos</a>
+                </div>
             </div>
         </div>
     </footer>
