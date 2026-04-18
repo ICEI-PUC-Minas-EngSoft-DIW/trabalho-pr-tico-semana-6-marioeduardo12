@@ -26,11 +26,12 @@ A responsividade do projeto é feita com Bootstrap 5 via CDN. O CSS foi simplifi
 
 ## Print da versão responsiva com Bootstrap [DESKTOP]
 
-<<  COLOQUE A IMAGEM AQUI >>
+![Desktop Version](Desktop.png)
 
 ## Print da versão responsiva com Bootstrap [MOBILE] (*)
 
-<<  COLOQUE A IMAGEM AQUI >>
+![Mobile Version](Mobile.png)
+![Mobile Version 2](Mobile2.png)
 
 
 (*) Utilize as ferramentas do desenvolvedor do seu navegador para colocar no modo reponsivo, escolha um celular qualquer e recarregue a página antes de tirar o print. 

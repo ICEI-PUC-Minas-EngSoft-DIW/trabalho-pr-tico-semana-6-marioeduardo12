@@ -1,0 +1,14 @@
+[33maf4484b[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/develop[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mdevelop[m[33m)[m docs: adiciona imagens de responsividade no README
+[33m834f5c6[m fix: corrige itens do menu principal no cabeçalho
+[33m3b7ab13[m chore: organiza estrutura final do projeto
+[33m913138d[m feat: cria página de cadastro
+[33m63e487b[m feat: cria página de login
+[33m7d075cc[m refactor: substitui layout por Bootstrap
+[33mcd113a8[m style: aplica estilização inicial com CSS
+[33m0163eb4[m feat: adiciona formulário na página
+[33m927bea0[m feat: adiciona seção de artigos
+[33m7d284ce[m feat: adiciona seção de cards de playlists
+[33m0042810[m feat: adiciona seção principal de destaque
+[33mfa50df2[m feat: adiciona cabeçalho e navegação
+[33mbdf7602[m chore: adiciona estrutura inicial do projeto
+[33mc8be7be[m Initial commit
