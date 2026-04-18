@@ -132,7 +132,7 @@ img {
 }
 
 .texto-apoio {
-    margin-bottom: 20p;
+    margin-bottom: 20px;
     color: #666;
 }
 
@@ -238,10 +238,14 @@ img {
     gap: 12px;
 }
 
-.rodape-site .links-rodape a {
+.rodape-site .link-rodape a {
     margin-right: 10px;
     color: #ffffff;
     font-size: 14px;
+}
+
+.secao-destaque {
+    padding: 40px 0;
 }
 
 
