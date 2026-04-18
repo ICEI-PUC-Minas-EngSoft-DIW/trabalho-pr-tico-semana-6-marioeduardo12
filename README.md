@@ -12,7 +12,16 @@ No trabalho dessa semana vamos alterar o projeto para que a responsividade da ho
 - Nome: Mario Eduardo
 - Matricula: 915751
 - Proposta de projeto escolhida: Um site de música, onde o usuário pode ouvir suas músicas favoritas e criar playlists. Inspiração: Spotify, Apple Music, Deezer, etc.
-- Breve descrição sobre seu projeto: A ideia do projeto é um site intuitivo e fácil de usar, onde os usuários podem acessar uma vasta biblioteca de músicas, criar suas próprias playlists personalizadas. Além de músicas não licenciadas como no soundcloud. 
+- Breve descrição sobre seu projeto: A ideia do projeto é um site intuitivo e fácil de usar, onde os usuários podem acessar uma vasta biblioteca de músicas, criar suas próprias playlists personalizadas. Além de músicas não licenciadas como no soundcloud.
+
+## Estrutura do Projeto
+
+- `public/index.html` — página inicial com destaque, playlists, artistas e formulário
+- `public/login.html` — página de login
+- `public/cadastro.html` — página de cadastro
+- `public/style.css` — estilos simples (cores, fontes, bordas)
+
+A responsividade do projeto é feita com Bootstrap 5 via CDN. O CSS foi simplificado, removendo flexbox, grid e media queries em favor do sistema de grid do Bootstrap (`container`, `row`, `col-*`).
 
 
 ## Print da versão responsiva com Bootstrap [DESKTOP]
